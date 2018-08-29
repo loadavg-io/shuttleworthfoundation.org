@@ -1,0 +1,115 @@
+Aaron Makaruk:
+  accounting: 3001.6
+  infrastructure: 28299.2
+  marketing: 9500.0
+  people: 84799.2
+  travel: 2398.38
+Achal Prabhala:
+  accounting: 600.54
+  infrastructure: 3565.18
+  legal: 26292.25
+  marketing: 2699.72
+  office-space: 3599.97
+  people: 200552.44
+  travel: 50461.15
+Adam Hyde:
+  people: 115816.30
+  travel: 1903.89
+Alasdair Davies:
+  infrastructure: 80320.96
+  people: 127539.38
+  travel: 33260.52
+Anasuya Sengupta:
+  accounting: 875.06
+  infrastructure: 3499.76
+  marketing: 3000.18
+  people: 154382.0
+  travel: 16675.05
+Astra Taylor:
+  legal: 55000.0
+  people: 277867.64
+  software: 25000.0
+Catharina Maracke:
+  accounting: 11459.14
+  infrastructure: 8734.32
+  marketing: 177.7
+  office-space: 30003.25
+  people: 2291.44
+  travel: 70513.32
+"Daniel Lombra\xF1a Gonz\xE1lez":
+  infrastructure: 28822.96
+  marketing: 6421.20
+  people: 45117.26
+  software development: 13552.58
+Esra'a Al Shafei:
+  accounting: 20000.0
+  people: 102817.20
+Isha Datar:
+  infrastructure: 5844.14
+  people: 207570.67
+  travel: 1998.81
+Jesse von Doom:
+  legal: 4500.0
+  office-space: 12000.0
+  people: 31205.0
+  software: 9750.0
+  travel: 8500.0
+Johnny West:
+  office-space: 329.06
+  infrastructure: 937.36
+  marketing: 17298.52
+  people: 59848.69
+  travel: 18110.79
+Kathi Fletcher:
+  infrastructure: 2449.16
+  software: 8138.30
+  travel: 12327.29
+Luka Mustafa:
+  accounting: 3093.25
+  infrastructure: 92186.6
+  office-space: 9729.40
+  people: 143150.41
+  software: 2259.50
+  travel: 5281.30
+Mad Ball:
+  people: 133875.0
+  software: 35000.0
+Peter Bloom:
+  infrastructure: 24718.82
+  legal: 35270.81
+  people: 86727.30
+  software: 17094.7
+  travel: 9051.47
+Peter Cunliffe-Jones:
+  marketing: 10500.0
+  people: 230081.1
+  travel: 7464.0
+Peter Murray-Rust:
+  infrastructure: 1189.13
+  people: 18218.22
+  software: 20405.04
+  travel: 8341.72
+Seamus Kraft:
+  marketing: 105000.0
+  people: 557884.36
+Sean Bonner:
+  infrastructure: 128000.0
+  marketing: 869.97
+  office-space: 39000.0
+  people: 45600.0
+  software: 54000.0
+  travel: 91580.5
+Tarek Loubani:
+  infrastructure: 7379.36
+  office-space: 3100.73
+  people: 130000.05
+  software: 30039.97
+  travel: 366.95
+Tiffiniy Cheng:
+  people: 196000.0
+  travel: 5363.99
+Ugo Vallauri:
+  infrastructure: 3159.64
+  people: 130645.05
+  software: 46814.73
+  travel: 33623.12

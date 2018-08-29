@@ -1,0 +1,53 @@
+<div class="light-green alternating wrapper">
+  <div class="container">
+    <div class="three columns">
+      <img src="{{ page.photo }}" alt="{{ page.name }}">
+    </div>
+      
+    {% if include.links %}
+    <div class="three columns links">
+      <div class="link-block clearfix">
+	<img class="icon" src="/images/icons/links.svg" alt="Links" />
+	<div class="link-heading">
+          Links
+	</div>
+	{% for link in include.links %}
+	{% for l in link %}
+	<a href="{{l[1]}}">{{l[0]}}</a></br>
+	{% endfor %}
+	{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+      
+    {% if include.projects %}
+    <div class="three columns links">
+      <div class="link-block clearfix">
+	<img class="icon" src="/images/icons/projects.svg" alt="Projects" />
+	<div class="link-heading">
+          Projects
+	</div>
+	{% for link in include.projects %}
+	{% for l in link %}
+	<a href="{{l[1]}}">{{l[0]}}</a></br>
+	{% endfor %}
+	{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+      
+    {% if include.twitter %}
+    <div class="three columns links">
+      <div class="link-block clearfix">
+	<img class="icon" src="/images/icons/twitter.svg" alt="Tweets" />
+	<div class="link-heading">
+          Twitter
+	</div>
+	<a href="http://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+      </div>
+    </div>
+    {% endif %}
+      
+    </div>
+  </div>
+</div>

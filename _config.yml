@@ -1,4 +1,6 @@
-# Site settings
+##
+# SITE SETTINGS
+##
 title: The Shuttleworth Foundation
 email: jason@shuttleworthfoundation.org
 description: "We're the Shuttleworth Foundation. We provide funding for dynamic leaders who are at the forefront of social change."
@@ -7,11 +9,46 @@ url: "http://shuttleworthfoundation.org"
 twitter_username: ShuttleworthFdn
 github_username: jasonhudson
 
-# Build settings
+intake:
+  open: false
+  reopen: 1 November 2018
+  current: 1 September 2018
+  next: March 2019
+  close: 25 May 2018
+  notify: 1 July 2018
+
+exclude: [Makefile, README.md, vendor, Gemfile]
+
+##
+# BUILD SETTINGS
+##
 markdown: kramdown
 permalink: pretty
 breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-#gems:
-#  - jekyll-redirect-from
 
-exclude: [Makefile, README.md]
+plugins:
+  - jekyll-archives
+  - jekyll-redirect-from
+
+##
+# JEKYLL-ARCHIVES
+##
+
+jekyll-archives:
+  enabled: ['year', 'tags']
+  permalinks:
+    year: '/thinking/:year/'
+    tag: '/thinking/tag/:name/'
+  layouts:
+    year: archive/year
+    tag: archive/tag
+
+##
+# COLLECTIONS
+##
+collections:
+  fellows:
+    output: true
+  team:
+    output: true
+
